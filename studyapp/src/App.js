@@ -1,6 +1,16 @@
-import React, {Component} from 'react';
+import React from 'react';
+import Header from './components/Header';
+import './styles.css';
+import Main from './pages/main';
 
-class App extends Component {
+const App = () => (
+  <div className="App">
+     <Header />
+     <Main />
+  </div>
+);
+
+/* class App extends Component {
   render(){
     return (
       <div className="App">
@@ -8,6 +18,6 @@ class App extends Component {
       </div>
     );
   } 
-}
+} */
 
 export default App;
